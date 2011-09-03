@@ -1,0 +1,21 @@
+/*
+ *@Description: style.css
+ *@Version:	    v1.0
+ *@Website:	    http://gaoli.github.com
+ *@Author:      GaoLi
+ *@Update:      GaoLi(2011-09-03 13:30)
+ */
+
+/*=S common */
+html,body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,lable,textarea,p,blockquote,th,td {margin:0;padding:0;}
+body {background:url("../images/bg.jpg");-webkit-text-size-adjust:none;}
+body,textarea {font:400 12px/1.5 "Microsoft Yahei",Simsun,Arial;color:#333;}
+a,a:visited {text-decoration:none;color:#333;cursor:pointer;}
+a:hover {text-decoration:underline;color:#36C;}
+em,i {font-style:normal;}
+h1,h2,h3,h4,h5,h6,strong {font-weight:700;font-size:100%;}
+label, input, select {vertical-align:middle;}
+img, button {background:none;border:0 none;vertical-align:middle;}
+ol,ul {list-style:none;}
+table,th,td,fieldset,legend {font-weight:400;border:0 none;border-collapse:collapse}
+/*=E common */
