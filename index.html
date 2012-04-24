@@ -1,21 +1,11 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Gaoli's GitHub Pages</title>
-    <style type="text/css">
-        body {
-            font:400 20px/1.5 Georgia;
-        }
-    </style>
-</head>
-<body>
-    <h1>Gaoli's GitHub Pages</h1>
-    <ol>
-        <li><a href="http://www.cssbox.net/" target="_blank">blog</a></li>
-        <li><a href="http://gaoli.github.com/mod/" target="_blank">mod</a></li>
-        <li><a href="http://gaoli.github.com/snake/" target="_blank">snake</a></li>
-        <li><a href="http://gaoli.github.com/map-drag/" target="_blank">map-drag</a></li>
-    </ol>
-</body>
-</html>
+---
+layout: default
+title: Gaoli's GitHub Pages
+---
+
+<h1>Gaoli's GitHub Pages</h1>
+<ol>
+{% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ol>
