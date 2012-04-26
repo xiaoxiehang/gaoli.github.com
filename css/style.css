@@ -1,0 +1,39 @@
+/*=S common */
+html,body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,label,textarea,p,blockquote,th,td {margin:0;padding:0;}
+body {border-top:5px solid #CC342C;background:url("/images/bg.jpg");-webkit-text-size-adjust:none;}
+body,textarea {font:400 12px/1.5 "Microsoft Yahei",Simsun,Arial;color:#333;}
+a,a:visited {text-decoration:none;color:#333;cursor:pointer;}
+a:hover {text-decoration:underline;color:#CC342C;}
+em,i {font-style:normal;}
+h1,h2,h3,h4,h5,h6,strong {font-weight:700;font-size:100%;}
+label, input, select {vertical-align:middle;}
+img, button {background:none;border:0 none;vertical-align:middle;}
+ol,ul {list-style:none;}
+table,th,td,fieldset,legend {font-weight:400;border:0 none;border-collapse:collapse}
+
+.txt {padding:3px;border:1px solid #DDD;}
+.txt:hover {border-color:#CC342C;}
+.iblock {display:inline-block;*display:inline;zoom:1;vertical-align:middle;}
+/*=E common */
+
+
+/*=S HTML5 */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display:block;}
+audio, canvas, video {display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]) {display:none;}
+[hidden] {display:none;}
+/*=E HTML5 */
+
+/*=S layout */
+#row {margin:0 auto;width:980px;overflow:hidden;}
+    #header {margin:100px 0;overflow:hidden;}
+    #footer {padding:20px 0;background:url("/images/full-line.png") repeat-x;}
+    #content {margin-bottom:50px;overflow:hidden;}
+/*=S layout */
+
+/*=S header */
+#logo, #description {text-align:center;}
+	#logo {font:50px/50px Georgia;text-shadow:2px 2px 0 #FFF;} 
+	#logo a {color:#CC342C;text-decoration:none;}
+	#description {font:12px/1.5 Simsun;color:#888;}
+/*=E header */

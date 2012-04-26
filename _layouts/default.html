@@ -3,13 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
-    <style type="text/css">
-        body {
-            font:400 20px/1.5 Georgia;
-        }
-    </style>
+    <meta name="description" content="CssBox.net，专注网页前端开发与交互，关注国内外最新最好的前端开发资讯和前端开发技术的专业博客" />
+    <meta name="keywords" content="HTML,HTML5,CSS,CSS3,JavaScript,jQuery,前端,F2E" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
-    {{ content }}
+    <div id="row">
+        <header id="header">
+            <hgroup>
+                <h1 id="logo"><a href="http://gaoli.github.com">CssBox.net</a></h1>
+                <h2 id="description">专注网页前端开发与交互</h2>
+            </hgroup>
+        </header>
+        <div id="content">
+            {{ content }}
+        </div>
+        <footer id="footer">
+            <p>Copyright © GaoLi 2008-2012.</p>
+            <p>Powered by <a href="http://jekyllrb.com" target="_blank" rel="nofollow">Jekyll</a>. Designed by <a href="http://gaoli.github.com" rel="nofollow">Gaoli</a>. <a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">浙ICP备09069774号</a></p>
+        </footer>
+    </div>
 </body>
 </html>
