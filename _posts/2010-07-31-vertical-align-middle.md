@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 纯CSS实现未知尺寸图片垂直居中
+category: CSS
 ---
 
 淘宝UED前端招聘中有这样一道题目：

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: FireRainbow - Firebug JS 语法高亮
+category: Tool
 ---
 
 这是一款专为 Firebug 设计的 Javascript 语法高亮插件，

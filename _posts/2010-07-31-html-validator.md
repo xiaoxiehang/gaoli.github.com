@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Firefox插件 - HTML Validator
+category: Tool
 ---
 
 HTML Validator 可以检查出HTML页面中绝大部分的嵌套和书写错误，

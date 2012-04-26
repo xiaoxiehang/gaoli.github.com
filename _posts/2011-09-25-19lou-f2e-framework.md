@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 19楼前端架构浅析
+category: CSS
 ---
 
 今天最大的收获是认识了许多业内的朋友，

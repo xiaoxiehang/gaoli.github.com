@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 基于 BACKBONE.JS 的贪吃蛇
+category: JavaScript 
 ---
 
 记得去年D2上倔倔同学分享了关于[豆瓣说的前端MVC](http://www.slideshare.net/lvting/mvc-8569518)，

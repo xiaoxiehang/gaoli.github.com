@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IE下页面调试利器 - Firebug Lite
+category: Tool
 ---
 
 方法一：在需要调试的页面中插入以下JS代码

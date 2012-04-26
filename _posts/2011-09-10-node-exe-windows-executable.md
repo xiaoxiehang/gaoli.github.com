@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Win7 下搭建 Node.JS 环境
+category: JavaScript
 ---
 
 Node.JS 现在是火的一塌糊涂，但其环境搭建却难住了一部份感兴趣的同学，

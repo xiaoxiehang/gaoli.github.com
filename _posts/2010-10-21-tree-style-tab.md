@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Firefox插件 – Tree Style Tab
+category: Tool
 ---
 
 当你在浏览页面时，Tree Style Tab 会记录下你浏览页面的轨迹与逻辑，

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 楼坊街 - 地图拖拽与延迟加载
+category: JavaScript 
 ---
 
 **地图拖拽**

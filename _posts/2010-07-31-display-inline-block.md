@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IE下块元素实现 display:inline-block
+category: CSS
 ---
 
 display:inline-block

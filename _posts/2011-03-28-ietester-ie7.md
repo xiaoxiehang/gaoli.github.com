@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IETester IE7 无法加载本地HTML页面
+category: Tool
 ---
 
 假设本地HTML文件路径为C:\website\index.html

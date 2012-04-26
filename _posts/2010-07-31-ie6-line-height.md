@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IE6行高(line-height)失效
+category: CSS
 ---
 
 当一个容器里的文字与img、input、textarea、select、object等元素相连时，

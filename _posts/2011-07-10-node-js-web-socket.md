@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 基于Node.js 的 Web Socket
+category: HTML 
 ---
 
 首先要感谢 Jacek Becela 的 node.ws.js 插件，

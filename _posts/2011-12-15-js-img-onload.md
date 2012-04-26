@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JS 图片预加载技术
+category: JavaScript 
 ---
 
 项目开发中时常需要用 JS 判断一张图片是否加载成功，

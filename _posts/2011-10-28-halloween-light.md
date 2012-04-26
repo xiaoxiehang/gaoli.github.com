@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 楼坊街 - 万圣节魔法点灯
+category: JavaScript 
 ---
 
 赶在万圣节前夕，楼坊街二期终于新鲜出炉啦！

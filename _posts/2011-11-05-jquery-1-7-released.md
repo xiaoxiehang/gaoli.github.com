@@ -1,6 +1,7 @@
 ---
 layout: post
 title: jQuery 1.7 统一事件绑定API
+category: jQuery
 ---
 
 jQuery 1.7 已经正式发布！

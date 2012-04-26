@@ -1,6 +1,7 @@
 ---
 layout: post
 title: jQuery插件 - jqDnR
+category: jQuery
 ---
 
 jqDnR是一个轻量级的jQuery插件，它能够让你轻松实现对页面元素的拽拖与缩放功能。
