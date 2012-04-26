@@ -33,7 +33,15 @@ audio:not([controls]) {display:none;}
 
 /*=S header */
 #logo, #description {text-align:center;}
-	#logo {font:50px/50px Georgia;text-shadow:2px 2px 0 #FFF;} 
-	#logo a {color:#CC342C;text-decoration:none;}
-	#description {font:12px/1.5 Simsun;color:#888;}
+    #logo {font:50px/50px Georgia;text-shadow:2px 2px 0 #FFF;} 
+    #logo a {color:#CC342C;text-decoration:none;}
+    #description {font:12px/1.5 Simsun;color:#888;}
 /*=E header */
+
+/*=S post */
+.post {}
+    .post-hd h1 {padding-bottom:5px;font:26px/1.5 "Microsoft Yahei",Georgia;text-shadow:1px 1px 0 #FFF;background:url("/images/dotted-line.png") no-repeat 0 43px;}
+    .post-bd {font-size:14px;line-height:28px;}
+        .post-bd a, .post-bd a:visited {color:#CC342C;text-decoration:underline;}
+        .post-bd a:hover {color:#333;}
+/*=E post */
