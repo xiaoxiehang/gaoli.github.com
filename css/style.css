@@ -28,7 +28,10 @@ audio:not([controls]) {display:none;}
 #row {margin:0 auto;width:980px;overflow:hidden;}
     #header {margin:100px 0;overflow:hidden;}
     #footer {padding:20px 0;background:url("/images/full-line.png") repeat-x;}
-    #content {margin-bottom:50px;overflow:hidden;}
+    #content {margin-bottom:50px;overflow:hidden;_zoom:1;}
+		#posts {float:left;width:690px;}
+		#aside {float:right;margin-top:43px;width:240px;}
+    
 /*=S layout */
 
 /*=S header */
