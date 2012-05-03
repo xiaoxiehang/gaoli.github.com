@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="gbk">
+    <title>javaScript数组去重函数</title>
+    <style type="text/css">
+        #arrayData {padding:3px;font:12px "Simsun";color:#666;border:1px solid #DDD;}
+    </style>
+</head>
+<body>
+    <input id="arrayData" type="text" value="1,'1',1">
+    <input type="button" value="数组去重" onclick="newArray();">
+    <script type="text/javascript">
+        Array.prototype.unique = function(){
+            var newArray = [],
+                temp = {};
+            for(var i = 0; i < this.length; i++){
+                temp[typeof(this[i])+this[i]] = this[i];
+            }
+            for(var j in temp){
+                newArray.push(temp[j]);
+            }
+            return newArray;
+        };
+        function newArray(){
+            var arrayData = document.getElementById("arrayData");
+            arrayData.value = arrayData.value.split(",").unique();
+            alert("数组去重成功！");
+        }
+    </script>
+</body>
+</html>
