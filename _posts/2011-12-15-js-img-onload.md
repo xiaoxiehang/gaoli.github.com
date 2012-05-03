@@ -4,6 +4,8 @@ title: JS 图片预加载技术
 category: JavaScript 
 ---
 
+![JS 图片预加载技术](/uploads/2011/12/js-img-onload.jpg "JS 图片预加载技术")
+
 项目开发中时常需要用 JS 判断一张图片是否加载成功，
 
 如果图片加载成功，则执行其相应的 onload 绑定事件，

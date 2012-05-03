@@ -4,6 +4,8 @@ title: Firefox插件 - HTML Validator
 category: Tool
 ---
 
+![Firefox插件 - HTML Validator](/uploads/2010/07/html-validator.jpg "Firefox插件 - HTML Validator")
+
 HTML Validator 可以检查出HTML页面中绝大部分的嵌套和书写错误，
 
 并且针对每个错误都有详细的说明和推荐写法。

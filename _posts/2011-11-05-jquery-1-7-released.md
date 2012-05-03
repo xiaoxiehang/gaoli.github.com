@@ -4,6 +4,8 @@ title: jQuery 1.7 统一事件绑定API
 category: jQuery
 ---
 
+![jQuery 1.7 统一事件绑定API](/uploads/2011/11/jquery-1-7-released.jpg "jQuery 1.7 统一事件绑定API")
+
 jQuery 1.7 已经正式发布！
 
 你可以从 jQuery CDN 获取代码：[Production](http://code.jquery.com/jquery-1.7.min.js) [Development](http://code.jquery.com/jquery-1.7.js)

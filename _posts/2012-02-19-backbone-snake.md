@@ -4,6 +4,8 @@ title: 基于 BACKBONE.JS 的贪吃蛇
 category: JavaScript 
 ---
 
+![基于 BACKBONE.JS 的贪吃蛇](/uploads/2012/02/backbone-snake.jpg "基于 BACKBONE.JS 的贪吃蛇")
+
 记得去年D2上倔倔同学分享了关于[豆瓣说的前端MVC](http://www.slideshare.net/lvting/mvc-8569518)，
 
 也是那次分享中我第一次知晓了BACKBONE.JS的存在。
