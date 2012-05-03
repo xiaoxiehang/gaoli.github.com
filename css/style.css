@@ -13,6 +13,7 @@ table,th,td,fieldset,legend {font-weight:400;border:0 none;border-collapse:colla
 
 .txt {padding:3px;border:1px solid #DDD;}
 .txt:hover {border-color:#CC342C;}
+.pipe {padding:0 5px;font-style:normal;color:#888;}
 .iblock {display:inline-block;*display:inline;zoom:1;vertical-align:middle;}
 /*=E common */
 
@@ -51,11 +52,18 @@ audio:not([controls]) {display:none;}
 /*=S post */
 .post {}
     .post-hd h1 {padding-bottom:5px;font:26px/1.5 "Microsoft Yahei",Georgia;text-shadow:1px 1px 0 #FFF;background:url("/images/dotted-line.png") no-repeat 0 43px;}
+        .post-hd h1 a:hover {text-decoration:none;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;}
     .post-hd p {margin:10px 0;font:12px/1.5 Georgia;color:#888;overflow:hidden;}
     .post-bd {font-size:14px;line-height:28px;}
         .post-bd a, .post-bd a:visited {color:#CC342C;text-decoration:underline;}
         .post-bd a:hover {color:#333;}
 /*=E post */
+
+/*=S page */
+.page {float:right;margin-bottom:50px;overflow:hidden;}
+	.page a, .page span {text-decoration:none;float:left;margin-left:5px;padding:3px 8px;border:1px solid #DDD;background:#F7F7F7;border-radius:2px;}
+	.page a:hover, .page .current {color:#FFF;border-color:#333;background:#333;background:-webkit-linear-gradient(#444, #333);background:-moz-linear-gradient(#444, #333);}
+/*=E page */
 
 /*=S widget */
 .widget {padding:20px 0;border-top:dashed 1px #B1B1A8;}

@@ -2,8 +2,43 @@
 layout: default
 title: CssBox.net 
 ---
-<ol>
-{% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% for post in paginator.posts %}
+<article class="post">
+    <header class="post-hd">
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <p>{{ post.date | date_to_string }}<span class="pipe">-</span>{{ post.category }}</p>
+    </header>
+</article>
 {% endfor %}
-</ol>
+
+<div class="page">
+{% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <a href="/"><</a>
+    {% else %}
+    <a href="/page{{ paginator.previous_page }}"><</a>
+    {% endif %}
+{% else %}
+    <span><</span>
+{% endif %}
+
+{% if paginator.page == 1 %}
+    <span class="current">1</span>
+{% else %}
+    <a href="/">1</a>
+{% endif %}
+
+{% for count in (2..paginator.total_pages) %}
+    {% if count == paginator.page %}
+    <span class="current">{{ count }}</span>
+    {% else %}
+    <a href="/page{{ count }}">{{ count }}</a>
+    {% endif %}
+{% endfor %}
+
+{% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}">></a>
+{% else %}
+    <span>></span>
+{% endif %}
+</div>
