@@ -18,8 +18,6 @@ title: CssBox.net
     {% else %}
     <a href="/page{{ paginator.previous_page }}"><</a>
     {% endif %}
-{% else %}
-    <span><</span>
 {% endif %}
 
 {% if paginator.page == 1 %}
@@ -38,7 +36,5 @@ title: CssBox.net
 
 {% if paginator.next_page %}
     <a href="/page{{paginator.next_page}}">></a>
-{% else %}
-    <span>></span>
 {% endif %}
 </div>
