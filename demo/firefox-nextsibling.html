@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="gbk">
+    <title>Firefox 中使用 nextSibling 的兼容问题</title>
+    <style type="text/css">
+        div {
+            margin-bottom:10px;
+            width:70px;
+            height:30px;
+            text-align:center;
+            font:12px/30px "Arial";
+            color:#999;
+            border:1px solid #DDD;
+            background-color:#F7F7F7;
+        }
+    </style>
+</head>
+<body>
+    <div id="firstNode">Node 1</div>
+    <div>Node 2</div>
+    <input type="submit" value="Hidden Node 2" onclick="hiddenNode()" />
+    <script type="text/javascript">
+        //getNextNode
+        function getNextNode(firstNode){
+            var NextNode = firstNode.nextSibling;
+            while(NextNode.nodeType != 1){
+                NextNode = NextNode.nextSibling;
+            }
+            return NextNode;
+        }
+        //hiddenNode
+        function hiddenNode(){
+            var firstNode = document.getElementById("firstNode");
+            getNextNode(firstNode).style.display = "none";
+        }
+    </script>
+</body>
+</html>
