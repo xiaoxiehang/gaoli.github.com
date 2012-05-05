@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="gbk">
+    <title>使用 HTML5 Canvas 画哆啦A梦</title>
+    <style type="text/css">
+        #doraemon {position:relative;margin:20px auto;width:500px;height:500px;}
+        #face, #white, #eye, #eyeball, #nose, #mouth, #whisker {position:absolute;top:0;left:0;}
+    </style>
+</head>
+<body>
+    <div id="doraemon">
+        <canvas id="face" width="500" height="500">您的浏览器不支持canvas</canvas> 	
+        <canvas id="white" width="500" height="500"></canvas>
+        <canvas id="eye" width="500" height="500"></canvas>
+        <canvas id="eyeball" width="500" height="500"></canvas>
+        <canvas id="nose" width="500" height="500"></canvas>
+        <canvas id="mouth" width="500" height="500"></canvas>
+        <canvas id="whisker" width="500" height="500"></canvas>
+    </div>
+    <script type="text/javascript">
+        var face, white, eye, eyeball, nose, mouth, whisker;
+
+        function getCanvas(id) {
+            return document.getElementById(id).getContext("2d");
+        }
+
+        //face
+        face = getCanvas("face");
+        face.fillStyle = "#07BEEA";
+        face.strokeStyle = "#333";
+        face.arc(250, 250, 250, 0, 360 * Math.PI / 180);
+        face.fill();
+        face.stroke();
+
+        //white
+        white = getCanvas("white");
+        white.fillStyle = "#FFF";
+        white.strokeStyle = "#333";
+        white.beginPath();
+        white.moveTo(160, 450);
+        white.bezierCurveTo(0, 400, 0, 110, 210, 115);
+        white.lineTo(290, 115);
+        white.bezierCurveTo(500, 110, 500, 400, 340, 450);
+        white.bezierCurveTo(280, 470, 220, 470, 160, 450);
+        white.fill();
+        white.stroke();
+
+        //eye
+        eye = getCanvas("eye");
+        eye.fillStyle = "#FFF";
+        eye.strokeStyle = "#333";
+        eye.moveTo(150, 150);
+        eye.lineTo(150, 100);
+        eye.bezierCurveTo(160, 50, 240, 50, 250, 100);
+        eye.lineTo(250, 150);
+        eye.bezierCurveTo(240, 200, 160, 200, 150, 150);
+        eye.moveTo(250, 150);
+        eye.lineTo(250, 100);
+        eye.bezierCurveTo(260, 50, 340, 50, 350, 100);
+        eye.lineTo(350, 150);
+        eye.bezierCurveTo(340, 200, 260, 200, 250, 150);
+        eye.fill();
+        eye.stroke();
+
+        //eyeball
+        eyeball = getCanvas("eyeball");
+        eyeball.fillStyle = "#333";
+        eyeball.arc(225, 155, 10, 0, 360 * Math.PI / 180);
+        eyeball.arc(275, 155, 10, 0, 360 * Math.PI / 180);
+        eyeball.fill();
+
+        //nose
+        nose = getCanvas("nose");
+        nose.fillStyle = "#C93E00";
+        nose.strokeStyle = "#333";
+        nose.arc(250, 197, 25, 0, 360 * Math.PI / 180);
+        nose.fill();
+        nose.stroke();
+
+        //mouth
+        mouth = getCanvas("mouth");
+        mouth.strokeStyle = "#333";
+        mouth.moveTo(250, 222);
+        mouth.lineTo(250, 395);
+        mouth.moveTo(100, 320);
+        mouth.bezierCurveTo(180, 420, 320, 420, 400, 320);
+        mouth.stroke();
+
+        //whisker
+        whisker = getCanvas("whisker");
+        whisker.strokeStyle = "#333";
+        whisker.moveTo(80, 220);
+        whisker.lineTo(180, 220);
+        whisker.moveTo(80, 245);
+        whisker.lineTo(180, 245);
+        whisker.moveTo(80, 270);
+        whisker.lineTo(180, 270);
+        whisker.moveTo(320, 220);
+        whisker.lineTo(420, 220);
+        whisker.moveTo(320, 245);
+        whisker.lineTo(420, 245);
+        whisker.moveTo(320, 270);
+        whisker.lineTo(420, 270);
+        whisker.stroke();
+    </script>
+</body>
+</html>

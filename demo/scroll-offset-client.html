@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="gbk">
+    <title>深入理解 scroll offset client</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var str = "";
+        str += "body.scrollWidth：" + document.body.scrollWidth + "px";
+        str += "<br /><br />";
+        str += "body.scrollHeight：" + document.body.scrollHeight + "px";
+        str += "<br /><br />";
+        str += "body.offsetWidth：" + document.body.offsetWidth + "px";
+        str += "<br /><br />";
+        str += "body.offsetHeight：" + document.body.offsetHeight + "px";
+        str += "<br /><br />";
+        str += "body.clientWidth：" + document.body.clientWidth + "px";
+        str += "<br /><br />";
+        str += "body.clientHeight：" + document.body.clientHeight + "px";
+        str += "<br /><br /><br /><br />";
+        str += "documentElement.scrollWidth：" + document.documentElement.scrollWidth + "px";
+        str += "<br /><br />";
+        str += "documentElement.scrollHeight：" + document.documentElement.scrollHeight + "px";
+        str += "<br /><br />";
+        str += "documentElement.offsetWidth：" + document.documentElement.offsetWidth + "px";
+        str += "<br /><br />";
+        str += "documentElement.offsetHeight：" + document.documentElement.offsetHeight + "px";
+        str += "<br /><br />";
+        str += "documentElement.clientWidth：" + document.documentElement.clientWidth + "px";
+        str += "<br /><br />";
+        str += "documentElement.clientHeight：" + document.documentElement.clientHeight + "px";
+        document.body.innerHTML = str;
+    </script>
+</body>
+</html>
