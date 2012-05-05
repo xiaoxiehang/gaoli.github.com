@@ -30,9 +30,8 @@ audio:not([controls]) {display:none;}
     #header {margin:100px 0;overflow:hidden;}
     #footer {padding:20px 0;background:url("/images/full-line.png") repeat-x;}
     #content {margin-bottom:50px;overflow:hidden;_zoom:1;}
-		#posts {float:left;width:690px;}
-		#aside {float:right;margin-top:43px;width:240px;}
-    
+        #posts {float:left;width:690px;}
+        #aside {float:right;margin-top:43px;width:240px;}
 /*=S layout */
 
 /*=S header */
@@ -43,10 +42,14 @@ audio:not([controls]) {display:none;}
 /*=E header */
 
 /*=S nav */
-#nav {width:453px;margin:50px auto 0;}
+#nav {width:638px;margin:50px auto 0;}
     #nav li {float:left;font:16px Georgia;}
-		#nav li a {margin:0 15px;}
-		#nav li a:hover {text-decoration:none;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;}
+        #nav a {margin:0 15px;}
+        #nav a:hover {text-decoration:none;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;}
+        .rss, .weibo, .github, .jQAPI{display:block;padding-top:16px;width:16px;height:0;background:url("/images/icon.png") no-repeat;overflow:hidden;}
+            .weibo {background-position:0 -16px;}
+            .github {background-position:0 -32px;}
+            .jQAPI {background-position:0 -48px;}
 /*=E nav */
 
 /*=S post */
@@ -54,10 +57,12 @@ audio:not([controls]) {display:none;}
     .post-hd h1 {padding-bottom:5px;font:26px/1.5 "Microsoft Yahei",Georgia;text-shadow:1px 1px 0 #FFF;background:url("/images/dotted-line.png") no-repeat 0 43px;}
         .post-hd h1 a:hover {text-decoration:none;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;}
     .post-hd p {margin:10px 0;font:12px/1.5 Georgia;color:#888;overflow:hidden;}
-    .post-bd {font-size:14px;line-height:28px;}
+    .post-bd {margin-bottom:30px;font-size:14px;line-height:28px;}
         .post-bd a, .post-bd a:visited {color:#CC342C;text-decoration:underline;}
         .post-bd a:hover {color:#333;}
         .post-bd img {margin:5px 0;border:5px solid #BBB;border-radius:3px;}
+    .post-ft {padding:30px 0;background:url("/images/star-line.png") no-repeat 50% 0;overflow:hidden;_zoom:1;}
+        .post-nav .next {float:right;}
 /*=E post */
 
 /*=S page */

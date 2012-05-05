@@ -10,4 +10,10 @@ layout: default
     <div class="post-bd">
         {{ content }}
     </div>
+    <footer class="post-ft">
+        <nav class="post-nav">
+            {% if page.previous %}<a class="prev" href="{{ page.previous.url }}" rel="prev">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>{% endif %}
+            {% if page.next %}<a class="next" href="{{ page.next.url }}" rel="next">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>{% endif %}
+        </nav>
+    </footer>
 </article>
