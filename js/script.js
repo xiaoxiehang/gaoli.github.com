@@ -11,6 +11,22 @@ var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " 
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Faadb874c4f4df417cacd2a85753c677b' type='text/javascript'%3E%3C/script%3E"));
 
 /**
+ * 百度分享
+ */
+if (document.getElementById("bdlike_shell")) {
+   
+    var bdShare_config = {
+        "type":"small",
+        "color":"red",
+        "uid":"662881",
+        "share":"yes"
+    };
+
+    document.getElementById("bdlike_shell").src="http://bdimg.share.baidu.com/static/js/like_shell.js?t=" + new Date().getHours();
+
+}
+
+/**
  * DISQUS
  */
 if (document.getElementById("disqus_thread")) {

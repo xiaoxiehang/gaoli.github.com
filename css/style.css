@@ -53,16 +53,17 @@ audio:not([controls]) {display:none;}
 /*=E nav */
 
 /*=S post */
-.post {}
-    .post-hd h1 {padding-bottom:5px;font:26px/1.5 "Microsoft Yahei",Georgia;text-shadow:1px 1px 0 #FFF;background:url("/images/dotted-line.png") no-repeat 0 43px;}
-        .post-hd h1 a:hover {text-decoration:none;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;}
-    .post-hd p {margin:10px 0;font:12px/1.5 Georgia;color:#888;overflow:hidden;}
-    .post-bd {margin-bottom:30px;font-size:14px;line-height:28px;}
-        .post-bd a, .post-bd a:visited {color:#CC342C;text-decoration:underline;}
-        .post-bd a:hover {color:#333;}
-        .post-bd img {margin:5px 0;border:5px solid #BBB;border-radius:3px;}
-    .post-ft {padding:30px 0;background:url("/images/star-line.png") no-repeat 50% 0;overflow:hidden;_zoom:1;}
-        .post-nav .next {float:right;}
+.post-hd h1 {padding-bottom:5px;font:26px/1.5 "Microsoft Yahei",Georgia;text-shadow:1px 1px 0 #FFF;background:url("/images/dotted-line.png") no-repeat 0 43px;}
+    .post-hd h1 a:hover {text-decoration:none;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;}
+    .post-info {margin:10px 0;height:25px;overflow:hidden;_zoom:1;}
+        .post-info p {float:left;font:12px/25px Georgia;color:#888;}
+        .post-info .bdlikebutton {float:left;margin-left:15px;}
+.post-bd {margin-bottom:30px;font-size:14px;line-height:28px;}
+    .post-bd a, .post-bd a:visited {color:#CC342C;text-decoration:underline;}
+    .post-bd a:hover {color:#333;}
+    .post-bd img {margin:5px 0;border:5px solid #BBB;border-radius:3px;}
+.post-ft {padding-top:30px;background:url("/images/star-line.png") no-repeat 50% 0;overflow:hidden;_zoom:1;}
+    .post-nav .next {float:right;}
 /*=E post */
 
 /*=S page */
