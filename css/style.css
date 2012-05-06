@@ -58,12 +58,14 @@ audio:not([controls]) {display:none;}
     .post-info {margin:10px 0;height:25px;overflow:hidden;_zoom:1;}
         .post-info p {float:left;font:12px/25px Georgia;color:#888;}
         .post-info .bdlikebutton {float:left;margin-left:15px;}
-.post-bd {margin-bottom:30px;font-size:14px;line-height:28px;}
+.post-bd {margin-bottom:20px;font-size:14px;line-height:28px;}
     .post-bd a, .post-bd a:visited {color:#CC342C;text-decoration:underline;}
     .post-bd a:hover {color:#333;}
     .post-bd img {margin:5px 0;border:5px solid #BBB;border-radius:3px;}
-.post-ft {padding-top:30px;background:url("/images/star-line.png") no-repeat 50% 0;overflow:hidden;_zoom:1;}
-    .post-nav .next {float:right;}
+.post-ft {padding-top:30px;background:url("/images/star-line.png") no-repeat 50% 0;}
+    .post-nav {margin-bottom:20px;padding-bottom:20px;font-size:14px;line-height:28px;border-bottom:1px dashed #B1B1A8;overflow:hidden;_zoom:1;}
+        .post-nav .prev {float:left;}
+        .post-nav .next {float:right;}
 /*=E post */
 
 /*=S page */
