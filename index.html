@@ -6,7 +6,9 @@ title: CssBox.net
 <article class="post">
     <header class="post-hd">
         <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <p>{{ post.date | date_to_string }}<span class="pipe">-</span>{{ post.category }}</p>
+        <div class="post-info">
+            <p>{{ post.date | date_to_string }}<span class="pipe">-</span>{{ post.category }}</p>
+        </div>
     </header>
 </article>
 {% endfor %}
