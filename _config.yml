@@ -1,4 +1,5 @@
 markdown: rdiscount
 permalink: /:title.html
-url: http://gaoli.github.com
+url: http://www.cssbox.net
+author: 红茶 
 paginate: 5 
