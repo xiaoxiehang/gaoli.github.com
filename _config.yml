@@ -1,5 +1,4 @@
 markdown: rdiscount
 permalink: /:title.html
 url: http://www.cssbox.net
-author: 红茶 
 paginate: 5 
