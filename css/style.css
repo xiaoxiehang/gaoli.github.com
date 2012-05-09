@@ -85,7 +85,7 @@ audio:not([controls]) {display:none;}
     .post-bd code {font-family:'Bitstream Vera Sans Mono','Courier New',monospace;}
         .str {color:#8F9D6A;}
         .kwd {color:#CDA869;}
-        .com {color:#E8E8E8;}
+        .com {color:#5F5A60;}
         .typ {color:#7587A6;}
         .lit {color:#CF6A4C;}
         .pun {color:#E8E8E8;}
