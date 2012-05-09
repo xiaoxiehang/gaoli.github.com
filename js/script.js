@@ -40,3 +40,9 @@ if (document.getElementById("disqus_thread")) {
     })(); 
 
 }
+
+/**
+ * 代码高亮
+ */
+
+prettyPrint()
