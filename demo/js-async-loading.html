@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="gbk">
+    <title>JS 异步加载</title>
+</head>
+<body>
+    <input id="loadInput" type="text" placeholder="ENTER URL" />
+    <input id="loadBtn" type="submit" value="Load" />
+
+	<script type="text/javascript">
+        var head = document.getElementsByTagName("head")[0],
+            loadBtn = document.getElementById("loadBtn"),
+            loadInput = document.getElementById("loadInput"),
+            load, loaded = [];
+
+        load = function(url) {
+            var f = true,
+                n;
+
+            if (/\.js$/i.test(url)) {
+                n = document.createElement("script");
+                n.setAttribute("type", "text/javascript");
+                n.setAttribute("src", url);
+                n.setAttribute("async", true);
+            } else if (/\.css$/i.test(url)) {
+                n = document.createElement("link");
+                n.setAttribute("type", "text/css");
+                n.setAttribute("rel", "stylesheet");
+                n.setAttribute("href", url);
+                loaded[url] = true;
+            } else {
+                f = false;
+                alert("请输入正确类型！");
+            }
+
+            if (f) {
+                /**
+                 * 判断元素是否加载成功
+                 */
+                n.onload = n.onreadystatechange = function() {
+                    if (!this.readyState || this.readyState === "loaded" || this.readyState === "complete") {
+                        loaded[this.getAttribute("src")] = true;
+                        n.onload = n.onreadystatechange = null;
+                    }
+                };
+                head.appendChild(n);    
+            }
+        };
+
+        loadBtn.onclick = function() {
+            var url = loadInput.value;
+
+            if (loaded[url]) {
+                alert("请勿重复加载!") 
+            } else {
+                load(url);    
+            }
+        };
+	</script>
+</body>
+</html>
