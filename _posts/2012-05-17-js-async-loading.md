@@ -19,4 +19,4 @@ Chrome、FireFox 等标准浏览器中，我们则可以通过 `onload` 监听�
         }
     };
 
-最后附上 [DEMO](/demo/js-async-loading.html) 一枚，仅供参考.
+最后附上 [DEMO](/demo/js-async-loading.html) 一枚，供为参考。
