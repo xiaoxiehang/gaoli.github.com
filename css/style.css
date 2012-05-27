@@ -72,9 +72,10 @@ audio:not([controls]) {display:none;}
 /*=S follow */
 .follow li {float:left;margin:10px 15px 0 0;}
     .follow a {display:block;padding-top:16px;width:16px;height:0;background:url("/images/icon.png") no-repeat;overflow:hidden;}
-    .follow .weibo {background-position:0 -16px;}
-    .follow .github {background-position:0 -32px;}
-    .follow .jQAPI {background-position:0 -48px;}
+    .follow .github {background-position:0 -16px;}
+    .follow .weibo {background-position:0 -32px;}
+    .follow .douban {background-position:0 -48px;}
+    .follow .zhihu {background-position:0 -64px;}
 /*=E follow */
 
 /*=S Syntax Highlighting */
