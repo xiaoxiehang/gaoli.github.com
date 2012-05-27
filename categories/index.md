@@ -1,16 +1,12 @@
 ---
-layout: default
+layout: page
 title: Categories
 ---
 
-<ul>
-    {% for category in site.categories %}
-    <li id="{{ category[0] }}">{{ category[0] }}</li>
-    {% for post in category[1] %}
-    <li>
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-    {% endfor %}
-</ul>
+
+{% for category in site.categories %}
+###{{ category[0] }}###
+{% for post in category[1] %}
+*   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>&nbsp;&nbsp;<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+{% endfor %}
+{% endfor %}
