@@ -13,8 +13,7 @@ title: Links
 *   [CSSer](http://blog.owncsser.com/ "CSSer")
 *   [十四像素](http://www.14px.com/ "十四像素")
 *   [愚人码头](http://www.css88.com/ "愚人码头")
-
-
+*   [Frully](http://frully.org/ "Frully")
 
 ###产品 / 视觉设计###
 
