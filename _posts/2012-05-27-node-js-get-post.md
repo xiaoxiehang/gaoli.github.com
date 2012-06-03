@@ -24,9 +24,9 @@ category: JavaScript
                                     ---       -----
                                      |          |
                                      |          |
-                  querystring(string)["foo"]    |
+            querystring.parse(string)["foo"]    |
                                                 |
-                             querystring(string)["hello"]
+                             querystring(string).parse["hello"]
 
 既然知晓了 Node.js 处理 GET/POST 请求的原理，我们先来写个简单的 GET 请求处理：
 
