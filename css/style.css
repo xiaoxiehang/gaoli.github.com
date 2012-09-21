@@ -55,6 +55,7 @@ audio:not([controls]) {display:none;}
     .post-nav {margin-bottom:20px;padding-bottom:20px;font-size:14px;line-height:28px;border-bottom:1px dashed #B1B1A8;overflow:hidden;_zoom:1;}
         .post-nav .prev {float:left;}
         .post-nav .next {float:right;}
+    .post-comment {margin-bottom:20px;}
 /*=E post */
 
 /*=S page */
