@@ -27,22 +27,7 @@ if (document.getElementById("bdlike_shell")) {
 }
 
 /**
- * DISQUS
- */
-if (document.getElementById("disqus_thread")) {
-
-    var disqus_shortname = 'f2e';
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })(); 
-
-}
-
-/**
  * 代码高亮
  */
 
-prettyPrint()
+prettyPrint();
