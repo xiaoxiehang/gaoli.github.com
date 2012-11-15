@@ -15,6 +15,7 @@ title: Links
 *   [愚人码头](http://www.css88.com/ "愚人码头")
 *   [Frully](http://frully.org/ "Frully")
 *   [林小志](http://blog.linxz.de/ "林友赛")
+*   [加勒比*海贼](http://www.yaohaixiao.com/ "加勒比*海贼")
 
 ###产品 / 视觉设计###
 
