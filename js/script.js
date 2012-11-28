@@ -14,20 +14,26 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
  * 百度分享
  */
 if (document.getElementById("bdlike_shell")) {
-   
     var bdShare_config = {
         "type":"small",
         "color":"red",
         "uid":"662881",
         "share":"yes"
     };
-
     document.getElementById("bdlike_shell").src="http://bdimg.share.baidu.com/static/js/like_shell.js?t=" + new Date().getHours();
-
 }
+
+/**
+ * DISQUS
+ */
+var disqus_shortname = 'f2e';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
 
 /**
  * 代码高亮
  */
-
 prettyPrint();
