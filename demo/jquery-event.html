@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="gbk">
+    <title>jQuery event 对象浅析</title>
+</head>
+<body>
+    <a id="J_btn" href="javascript:;">点我吧！</a>
+    <script type="text/javascript" src="../js/lib/jquery.js"></script>
+    <script type="text/javascript">
+
+        $("body").delegate("#J_btn", "click", function() {
+            alert("冒泡至 BODY");
+        });
+
+        var $btn = $("#J_btn");
+
+        $btn.click(function(event) {
+            event.stopImmediatePropagation();
+            alert("第一次点击");
+        });
+
+        $btn.click(function() {
+            alert("第二次点击");
+        });
+
+    </script>
+</body>
+</html>
