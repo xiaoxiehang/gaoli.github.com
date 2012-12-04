@@ -6,7 +6,9 @@ category: JavaScript
 
 最终传入事件处理程序的 event 其实已经被 jQuery 做过标准化处理，
 
-其原有的事件对象则被保存于 event 对象的 originalEvent 属性之中。
+其原有的事件对象则被保存于 event 对象的 originalEvent 属性之中，
+
+每个 event 都是 jQuery.Event 的实例，其原型链中保存有六个方法，
 
     jQuery.Event.prototype = {
         preventDefault: function() {
