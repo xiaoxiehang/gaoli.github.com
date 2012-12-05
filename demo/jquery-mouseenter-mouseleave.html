@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="gbk">
+    <title>jQuery mouseenter mouseleave 原理</title>
+</head>
+<style type="text/css">
+    .box {width:100px;height:100px;border:1px solid #DDD;background:#F7F7F7;}
+    .box span {display:block;margin:35px auto;width:30px;height:30px;text-align:center;color:#FFF;background:#FF6600;}
+</style>
+<body>
+    <p>use mouseenter bind</p>
+    <div id="J_boxEnter" class="box">
+        <span>0</span>
+    </div>
+    <p>use mouseover bind</p>
+    <div id="J_boxOver" class="box">
+        <span>0</span>
+    </div>
+    <script type="text/javascript" src="../js/lib/jquery.js"></script>
+    <script type="text/javascript">
+
+        var $boxEnter = $("#J_boxEnter"),
+            $boxOver  = $("#J_boxOver");
+
+        $boxEnter.bind("mouseenter", function(){
+            var $this = $(this),
+                $span = $this.find("span");
+
+            $span.html(parseInt($span.html()) + 1);
+        });
+
+        $boxOver.bind("mouseover", function(){
+            var $this = $(this),
+                $span = $this.find("span");
+
+            $span.html(parseInt($span.html()) + 1);
+        });
+
+    </script>
+</body>
+</html>
