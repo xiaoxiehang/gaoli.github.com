@@ -94,3 +94,12 @@ audio:not([controls]) {display:none;}
         .dec {color:#E8E8E8;}
         .pln {color:#E8E8E8;}
 /*=E Syntax Highlighting */
+
+/*=S Media Query */
+@media only screen and (min-width:768px) and (max-width:959px) {
+    #row, #aside {width:690px;}
+    #aside {margin-top:0;}
+        .widget {float:left;width:220px;}
+        .widget:nth-child(2) {margin:0 15px;}
+}
+/*=E Media Query */
