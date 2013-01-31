@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Links
+title: links
 ---
 
 ###前端开发###
